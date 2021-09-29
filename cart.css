@@ -12,15 +12,19 @@ nav{
     width: 100%;
     background: #16ac99;
 }
+
 #logo img{
     width: 7.8%;
     margin-left: 14%;
     margin-top: 0.5%;
 
 }
+.cart-logo{
+   width: 7%;
+}
 nav ul{
     float: right;
-    margin-right: 17%;
+    margin-right: -80px;
     margin-top: 00.5%;
 }
 nav li{
