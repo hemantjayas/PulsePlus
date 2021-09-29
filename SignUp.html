@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUp.css">
+    <script src="SignUp.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="logo">
+            <button onclick="page_Redirect()"><img src="https://www.pulseplus.in/content/images/icons/logo-pulse-pharmacy.png" alt=""></button>
+        </div>
+        <form onsubmit="setdata(event)" id="form">
+           <div>
+            <input type="text"  id="name" placeholder="Username" required>
+           </div>
+            <div>
+                <input type="email"  id="email" placeholder="Enter email" required>
+            </div>
+           <div>
+            <input type="number"  id="number" placeholder="Mobile no." required>
+           </div>
+           <div>
+            <input type="password"  id="password" placeholder="Password" required>
+           </div>
+           <div>
+            <input type="password"  id="ConfirmPassword" placeholder="Confirm-Password" required>
+           </div>
+            <div>
+                <input  type="submit" class="submit" value="Signup">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
