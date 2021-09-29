@@ -47,6 +47,7 @@
         #location select {
             background-color: #00BFA5;
             border: 1px solid white;
+            border-radius: 20px;
             width: 70%;
             height: 70%;
             font-size: 18px;
@@ -74,6 +75,92 @@
             width: 100%;
             height: 80%;
             margin-top: 10%;
+        }
+        #searchPanel {
+            border: 1px solid #00BFA5;
+            width: 100%;
+            height: 230px;
+            background-color: #00BFA5;
+        }
+        #searchBox {
+            margin-top: 2%;
+            border: 1px;
+            width: 100%;
+            height: 28%;
+            display: inline-flex;
+        }
+        #searchBar {
+            border: 1px ;
+            margin-left: 18%;
+            width: 57.5%;
+            height: 99%;
+            display: inline-flex;
+        }
+        #searchBar input {
+            width: 88%;
+            height: 90%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            font-size: 18px;
+        }
+        #searchBar img {
+            border: 1px;
+            width: 9%;
+            height: 97%;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #uploadBox {
+            border: 1px;
+            width: 6%;
+            height: 99%;
+            background-color: whitesmoke;
+            border-radius: 10px;
+        }
+        #uploadBox img {
+            width: 28%;
+            height: 28%;
+            margin-left: 35%;
+            margin-top: 10%;
+        }
+        .upload {
+            font-size: 12px;
+            text-align: center;
+        }
+        #inforMationBox {
+            width: 40%;
+            height: 40%;
+            margin-left: 30%;
+            margin-top: 3%;
+            display: inline-flex;
+        }
+        #products {
+            border-right: 1px solid white;
+            width: 49.5%;
+            display: inline-flex;
+        }
+        #products img {
+            width: 25%;
+            padding: 2%;
+        }
+        .description {
+            border: 1px ;
+            width: 70%;
+            color: whitesmoke;
+            font-size: 30px;
+            font-weight: 100;
+            margin-left: 2%;
+            margin-top: 3%;
+        }
+        #customers {
+            border-left: 1px solid white;
+            width: 49.5%;
+            display: inline-flex;
+        }
+        #customers img {
+            width: 25%;
+            padding: 5%;
+            margin-left: 22%;
         }
     </style>
 </head>
@@ -107,6 +194,30 @@
                 </div>
             </div>
         </nav>
+    </div>
+
+    <div id="searchPanel">
+        <div id="searchBox">
+            <div id="searchBar">
+                <input type="text" placeholder="Search medicines. E.g. amlong, dolo, etc"/>
+                <img src="http://iconsetc.com/icons-watermarks/flat-square-white-on-orange/broccolidry/broccolidry_search/broccolidry_search_flat-square-white-on-orange_512x512.png" />
+            </div>
+            <div id="uploadBox">
+                <img src="https://www.pulseplus.in/content/images/icons/upload_b.png" />
+                <div class="upload">Upload Prescription</div>
+            </div>
+        </div>
+
+        <div id="inforMationBox">
+            <div id="products">
+                <img src="https://www.pulseplus.in/content/images/icons/home_icon_gen_meds.svg" />
+                <div class="description">35,000+ products</div>
+            </div>
+            <div id="customers">
+                <img src="https://www.pulseplus.in/content/images/icons/home_icon_cust.svg" />
+                <div class="description">10 lakhs+ customers</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
