@@ -202,3 +202,60 @@ body {
     font-size: 18px;
     padding: 2%;
 }
+#try {
+    
+    width: 65%;
+    font-size: 18px;
+    margin: auto;
+}
+#didYouTryBox {
+    border: 1px solid black;
+    width: 65%;
+    margin: auto;
+    height: 250px;
+}
+#containerRow{
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    background-color: #FAFAFA;
+    width: 100%;
+    display: inline-flex;
+}
+.left {
+    border-right: 1px solid #BDBDBD;
+    width: 35%;
+    margin-left: 0.5%;
+}
+.center {
+    border-right: 1px solid #BDBDBD;
+    width: 17%;
+}
+.right {
+    width: 35%;
+    margin-right: 0.5%;
+}
+.left .center1 {
+    float: right;
+}
+.center1 {
+    width: 48%;
+    margin: 0.5%;
+}
+.img {
+    width: 50%;
+    margin: auto;
+}
+#img1 {
+    margin-top: 3%;
+}
+.img img {
+    width: 85%;
+    height: 100%;
+}
+.imgTitle {
+    width: 95%;
+    margin: auto;
+    color: #424242;
+    text-align: center;
+    margin-bottom: 2%;
+}
