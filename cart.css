@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family:  'Poppins', sans-serif;
+}
+nav{
+    height: 67px;
+    width: 100%;
+    background: #16ac99;
+}
+
+#logo img{
+    width: 7.8%;
+    margin-left: 14%;
+    margin-top: 0.5%;
+
+}
+.cart-logo{
+   width: 7%;
+}
+nav ul{
+    float: right;
+    margin-right: -80px;
+    margin-top: 00.5%;
+}
+nav li{
+    display: inline-block;
+    margin: 2px;
+    line-height: 50px;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+
+}
+nav li{
+    color: white;
+    font-size: larger;
+}
+ul select{
+    border: 1px solid white;
+    padding: 4px;
+    margin-right: 5px;
+    background-color: #16ac99;
+    border-radius: 8px;
+    
+}
