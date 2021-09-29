@@ -10,7 +10,7 @@ body{
 nav{
     height: 67px;
     width: 100%;
-    background: #00BFA5;
+    background: #00BFA5;   
 }
 
 #logo img{
@@ -243,71 +243,6 @@ ul select{
 }
 .imgTitle b{
     color: #424242;
+    
     font-size: 18px;
-}
-#infoBox {
-    width: 66%;
-    margin-left: 17%;
-    display: inline-flex;
-}
-.othersBox {
-    width: 24%;
-    margin: 1%;
-    color: #757575;
-}
-.othersBox table{
-    width: 100%;
-    margin: 5%;
-}
-.heading {
-    color: black;
-    font-size: 20px;
-    font-weight: 530;
-}
-#socialMedia {
-    display: inline-flex;
-}
-.medias {
-    width: 21%;
-    height: 26%;
-    border-radius: 50%;
-    margin: 5%;
-}
-.medias img {
-    width: 100%;
-    height: 100%;
-}
-#paymentBox {
-    width: 60%;
-    margin-top: 1%;
-    margin-left: 20%;
-    display: inline-flex;
-    margin-bottom: 25px;
-}
-.boxes {
-    border: 1px solid #757575;
-    width: 11%;
-    height: 40px;
-    margin:1%;
-}
-.boxes img {
-    width: 80%;
-    height: 100%;
-    margin-left: 5%;
-}
-#aboutParagraph {
-    width: 65%;
-    margin: auto;
-    color: #757575;
-    text-align: justify;
-}
-.head {
-    color: black;
-}
-#footer {
-    margin: 5%;
-    width: 90%;
-    text-align: center;
-    font-size: 14px;
-    color: #757575;
 }
