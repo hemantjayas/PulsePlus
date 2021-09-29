@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://www.pulseplus.in/content/images/icons/bg.png");
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    width: 60%;
+    place-items: center;
+}
+body,#container{
+    margin-left: 50%;
+}
+
+#container{
+    background: #fff;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+    padding: 30px;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+  
+}
+button{
+    margin-left: 30%;
+    background: #fff;
+    border-color: #fff;
+    border: 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0,0,0);
+    cursor: pointer;
+    
+}
+
+#Login{
+    background-color: #f9ae42;
+    cursor: pointer;
+}
+#form{
+    padding-top: 15%;
+}
+input{
+    width: 90%;
+    height: 30px;
+    margin: 1%;
+    margin-left: 10px;
+    margin-top: 15px;
+   padding-left: 5px;
+   border: 1px solid white;
+   border-radius: 5px;
+   background-color: rgb(241, 235, 235);
+   text-decoration: #444444;
+}
