@@ -1,53 +1,72 @@
-*{
-    padding: 0px;
-    margin: 0%;
-    text-decoration: none;
-    list-style: none;
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-body{
-    font-family:  'Poppins', sans-serif;
-}
-nav{
-    height: 67px;
+#navigationBox {
+    border: 1px ;
     width: 100%;
-    background: #00BFA5;   
+    height: 80px;
 }
-
-#logo img{
-    width: 7.8%;
-    margin-left: 14%;
-    margin-top: 0.5%;
-
+#navigationBox nav {
+    width: 100%;
+    background-color: #00BFA5;
+    height: 100%;
+    display: inline-flex;
 }
-.cart-logo{
-   width: 7%;
+#logo {
+    border: 1px;
+    width: 12%;
+    height: 100%;
+    margin-left: 18%;
 }
-nav ul{
-    float: right;
-    margin-right: -80px;
-    margin-top: 00.5%;
+#logo img {
+    width: 80%;
+    height: 80%;
+    padding: 3%;
 }
-nav li{
-    display: inline-block;
-    margin: 2px;
-    line-height: 50px;
+#navItems {
+    border: 1px;
+    width: 25%;
+    height: 100%;
+    margin-right: 18%;
+    margin-left: 26%;
+    display: inline-flex;
 }
-nav a{
-    color: white;
-    font-size: 18px;
-
+#location {
+    border: 1px;
+    width: 40%;
+    margin: 1%;
 }
-nav li{
-    color: white;
-    font-size: larger;
-}
-ul select{
+#location select {
+    background-color: #00BFA5;
     border: 1px solid white;
-    padding: 4px;
-    margin-right: 5px;
-    background-color: #16ac99;
-    border-radius: 8px;
-    
+    border-radius: 20px;
+    width: 70%;
+    height: 70%;
+    font-size: 18px;
+    color: white;
+    margin: 8%;
+}
+#loginSignup {
+    border: 1px;
+    width: 40%;
+    margin: 1%;
+}
+#loginSignup div {
+    width: 70%;
+    height: 70%;
+    font-size: 18px;
+    color: white;
+    margin: 15%;
+}
+#cart {
+    border: 1px;
+    width: 15%;
+    margin: 1%;
+}
+#cart img {
+    width: 100%;
+    height: 50%;
+    margin-top: 28%;
 }
 #searchPanel {
     border: 1px solid #00BFA5;
@@ -243,6 +262,71 @@ ul select{
 }
 .imgTitle b{
     color: #424242;
-    
     font-size: 18px;
+}
+#infoBox {
+    width: 66%;
+    margin-left: 17%;
+    display: inline-flex;
+}
+.othersBox {
+    width: 24%;
+    margin: 1%;
+    color: #757575;
+}
+.othersBox table{
+    width: 100%;
+    margin: 5%;
+}
+.heading {
+    color: black;
+    font-size: 20px;
+    font-weight: 530;
+}
+#socialMedia {
+    display: inline-flex;
+}
+.medias {
+    width: 21%;
+    height: 26%;
+    border-radius: 50%;
+    margin: 5%;
+}
+.medias img {
+    width: 100%;
+    height: 100%;
+}
+#paymentBox {
+    width: 60%;
+    margin-top: 1%;
+    margin-left: 20%;
+    display: inline-flex;
+    margin-bottom: 25px;
+}
+.boxes {
+    border: 1px solid #757575;
+    width: 11%;
+    height: 40px;
+    margin:1%;
+}
+.boxes img {
+    width: 80%;
+    height: 100%;
+    margin-left: 5%;
+}
+#aboutParagraph {
+    width: 65%;
+    margin: auto;
+    color: #757575;
+    text-align: justify;
+}
+.head {
+    color: black;
+}
+#footer {
+    margin: 5%;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    color: #757575;
 }
