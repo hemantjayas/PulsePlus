@@ -195,3 +195,10 @@ ul select {
     margin-top: 3%;
     display: flex;
 }
+.checkup {
+    border: 1px solid red;
+    width: 33%;
+    height: 60px;
+    margin-left: 0.5%;
+    background-color: #16ac99;
+}
