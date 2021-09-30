@@ -1,371 +1,381 @@
-* {
-    padding: 0px;
-    margin: 0%;
-    text-decoration: none;
-    list-style: none;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-nav {
-    height: 75px;
-    width: 100%;
-    background-color: #16ac99;
-    position: fixed;
-}
-
-#logo img {
-    width: 6%;
-    height: 48px;
-    margin-left: 24%;
-    margin-top: 0.5%;
-}
-
-#cart {
-    width: 35px;
-    height: 35px;
-}
-
-#select-state {
-    height: 32px;
-    color: white;
-    font-size: 18px;
-}
-
-.cart-logo {
-    width: 53%;
-    height: 20px;
-    object-fit: contain;
-}
-
-nav ul {
-    float: right;
-    margin-right: 455px;
-    margin-top: 00.5%;
-}
-
-nav li {
-    display: inline-block;
-    margin: 2px;
-    line-height: 50px;
-}
-
-nav a {
-    color: white;
-    font-size: 18px;
-}
-
-nav li {
-    color: white;
-    font-size: larger;
-}
-
-ul select {
-    border: 1px solid white;
-    padding: 4px;
-    margin-right: 5px;
-    background-color: #16ac99;
-    border-radius: 8px;
-}
-
-#searchPanel {
-    width: 100%;
-    height: 230px;
-    background-color: #16ac99;
-}
-
-#searchBox {
-    border: 1px;
-    width: 52%;
-    padding: 10px;
-    height: 68px;
-    margin: auto;
-    display: flex;
-}
-
-#searchBar {
-    border: 1px;
-    /* margin-left: 18%; */
-    width: 90%;
-    /* height: 99%; */
-    display: flex;
-}
-
-#searchBar div {
-    width: 7%;
-    /* height: 63px; */
-    background-color: #f9ae42;
-    border: 1px solid black;
-    border-radius: 0px 5px 5px 0px;
-}
-
-#searchBar div img {
-    width: 100%;
-    height: 58%;
-    margin-top: 10px;
-    object-fit: contain;
-    filter: invert();
-}
-
-#searchBar input {
-    width: 88%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    font-size: 18px;
-}
-
-#searchBar img {
-    border: 1px;
-    width: 9%;
-    height: 97%;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-#uploadBox {
-    border: 1px;
-    width: 9%;
-    /* height: 99%; */
-    background-color: whitesmoke;
-    border-radius: 10px;
-}
-
-#uploadBox img {
-    width: 28%;
-    height: 28%;
-    margin-left: 35%;
-    margin-top: 10%;
-}
-
-.upload {
-    font-size: 12px;
-    text-align: center;
-}
-
-#inforMationBox {
-    width: 40%;
-    margin: auto;
-    display: flex;
-}
-
-#products {
-    border-right: 1px solid white;
-    width: 49.5%;
-    display: inline-flex;
-}
-
-#products img {
-    width: 25%;
-    padding: 2%;
-}
-
-.description {
-    border: 1px;
-    width: 70%;
-    color: whitesmoke;
-    font-size: 30px;
-    font-weight: 100;
-    margin-left: 2%;
-    margin-top: 3%;
-}
-
-#customers {
-    border-left: 1px solid white;
-    width: 49.5%;
-    display: inline-flex;
-}
-
-#customers img {
-    width: 25%;
-    padding: 5%;
-    margin-left: 22%;
-}
-
-#offerSlideshow {
-    border: 1px solid black;
-    width: 51%;
-    height: 250px;
-    margin: auto;
-}
-
-#bookingBox {
-    width: 65%;
-    height: 150px;
-    margin-left: 17.5%;
-    display: inline-flex;
-}
-
-#doctorBox {
-    width: 46%;
-    margin: 2%;
-    display: inline-flex;
-}
-
-#labBox {
-    width: 46%;
-    margin: 2%;
-    display: inline-flex;
-}
-
-.picture {
-    width: 20%;
-    margin: 1%;
-}
-
-.picture img {
-    width: 100%;
-    height: 100%;
-}
-
-.cunsultBox {
-    margin: 1%;
-    width: 79%;
-    color: #424242;
-    text-align: center;
-    font-size: 28px;
-}
-
-.bookingButton {
-    border: 2px solid #00BFA5;
-    border-radius: 5px;
-    width: 75%;
-    margin: auto;
-    margin-top: 5%;
-    color: #00BFA5;
-    font-size: 18px;
-    padding: 2%;
-}
-
-#try {
-    width: 51%;
-    font-size: 18px;
-    margin: auto;
-}
-
-#didYouTryBox {
-    border: 1px solid black;
-    width: 51%;
-    margin: auto;
-    height: 250px;
-}
-
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
-#box {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    border: 1px solid #e3e1e1;
-    ;
-}
-
-#box div {
-    border: 1px solid #dddddd;
-    width: 13%;
-    height: 200px;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-#box img {
-    width: 38%;
-    height: 75px;
-}
-
-#box h5 {
-    margin: 9px 0px;
-    font-size: 15px;
-    color: #595656;
-}
-
-#box p {
-    margin: 7px 0px;
-    font-size: 14px;
-}
-
-#infoBox {
-    width: 66%;
-    margin-left: 17%;
-    display: inline-flex;
-}
-
-.othersBox {
-    width: 24%;
-    margin: 1%;
-    color: #757575;
-}
-
-.othersBox table {
-    width: 100%;
-    margin: 5%;
-}
-
-.heading {
-    color: black;
-    font-size: 20px;
-    font-weight: 530;
-}
-
-#socialMedia {
-    display: inline-flex;
-}
-
-.medias {
-    width: 21%;
-    height: 26%;
-    border-radius: 50%;
-    margin: 5%;
-}
-
-.medias img {
-    width: 100%;
-    height: 100%;
-}
-
-#paymentBox {
-    width: 51%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
-}
-
-.boxes {
-    border: 1px solid #757575;
-    width: 6%;
-    height: 34px;
-    margin: 9px;
-    padding: 3px;
-}
-
-.boxes img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-#aboutParagraph {
-    width: 65%;
-    margin: auto;
-    color: #757575;
-    text-align: justify;
-}
-
-.head {
-    color: black;
-}
-
-#footer {
-    margin: 5%;
-    width: 90%;
-    text-align: center;
-    font-size: 14px;
-    color: #757575;
-}
+    * {
+        padding: 0px;
+        margin: 0%;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    nav {
+        height: 75px;
+        width: 100%;
+        background-color: #16ac99;
+        position: fixed;
+    }
+    
+    #logo img {
+        width: 6%;
+        height: 48px;
+        margin-left: 24%;
+        margin-top: 0.5%;
+    }
+    
+    #cart {
+        width: 35px;
+        height: 35px;
+    }
+    
+    #select-state {
+        height: 32px;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .cart-logo {
+        width: 53%;
+        height: 20px;
+        object-fit: contain;
+    }
+    
+    nav ul {
+        float: right;
+        margin-right: 455px;
+        margin-top: 00.5%;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin: 2px;
+        line-height: 50px;
+    }
+    
+    nav a {
+        color: white;
+        font-size: 18px;
+    }
+    
+    nav li {
+        color: white;
+        font-size: larger;
+    }
+    
+    ul select {
+        border: 1px solid white;
+        padding: 4px;
+        margin-right: 5px;
+        background-color: #16ac99;
+        border-radius: 8px;
+    }
+    
+    #space {
+        width: 100%;
+        background-color: #16ac99;
+        height: 67px;
+    }
+    
+    #searchPanel {
+        width: 100%;
+        height: 190px;
+        background-color: #16ac99;
+        padding: 10px 0px;
+    }
+    
+    #searchBox {
+        width: 51%;
+        padding: 10px;
+        height: 70px;
+        margin: auto;
+        display: flex;
+    }
+    
+    #searchBar {
+        border: 1px;
+        /* margin-left: 18%; */
+        width: 90%;
+        /* height: 99%; */
+        display: flex;
+    }
+    
+    #searchBar input {
+        width: 88%;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-size: 18px;
+        border: none;
+    }
+    
+    #searchBar div {
+        width: 9%;
+        /* height: 63px; */
+        background-color: #f9ae42;
+        /* border: 1px solid black; */
+        border-radius: 0px 5px 5px 0px;
+    }
+    
+    #searchBar div img {
+        width: 32%;
+        height: 58%;
+        margin: 14px 26px;
+        object-fit: contain;
+        filter: invert();
+    }
+    
+    #searchBar img {
+        border: 1px;
+        width: 9%;
+        height: 97%;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    #uploadBox {
+        border: 1px;
+        width: 9%;
+        /* height: 99%; */
+        background-color: whitesmoke;
+        border-radius: 10px;
+    }
+    
+    #uploadBox img {
+        width: 28%;
+        height: 28%;
+        margin-left: 35%;
+        margin-top: 10%;
+    }
+    
+    .upload {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    #inforMationBox {
+        width: 51%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #line {
+        border-left: 0.01% solid white;
+    }
+    
+    .info {
+        width: 38%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .capsuleImg {
+        width: 21%;
+    }
+    
+    .capsuleImg img {
+        padding-top: 9px;
+        height: 98%;
+        width: 83%;
+    }
+    
+    .description {
+        font-size: 23px;
+        width: 30%;
+        color: white;
+        padding: 33px 0px 10px;
+    }
+    
+    #cont2 {
+        background-color: #f5f8fa;
+    }
+    
+    #offerSlideshow {
+        border: 1px solid black;
+        width: 51%;
+        height: 250px;
+        margin: auto;
+    }
+    /* idhar se booking doctor ki css hai */
+    
+    #booking {
+        width: 51%;
+        height: 140px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background-color: #f5f8fa;
+        padding: 20px 0;
+    }
+    
+    .doctor {
+        width: 48%;
+        margin: 4px;
+        padding-left: 10px;
+        display: flex;
+    }
+    
+    .img {
+        width: 20%;
+    }
+    
+    .img img {
+        width: 100%;
+        height: 80%;
+    }
+    
+    .contenthai {
+        width: 58%;
+        text-align: center;
+    }
+    
+    .contenthai p {
+        font-size: 25px;
+        margin: 6px 0px 16px;
+        color: rgb(123 120 120)
+    }
+    
+    .contenthai button {
+        font-size: 16px;
+        padding: 10px;
+        color: #16ac99;
+        background-color: white;
+        border: 1px solid #16ac99;
+    }
+    
+    span {
+        font-weight: bold;
+    }
+    /* idhar booking ki css khatm */
+    
+    #try {
+        width: 51%;
+        font-size: 18px;
+        margin: auto;
+    }
+    
+    #didYouTryBox {
+        border: 1px solid black;
+        width: 51%;
+        margin: auto;
+        height: 250px;
+    }
+    
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+    /* idhar box ki css start */
+    
+    #box {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        border: 1px solid #e3e1e1;
+        ;
+    }
+    
+    #box div {
+        border: .5px solid #f3efef;
+        width: 12.78%;
+        height: 200px;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    #box img {
+        width: 38%;
+        height: 75px;
+    }
+    
+    #box h5 {
+        margin: 9px 0px;
+        font-size: 15px;
+        color: #595656;
+    }
+    
+    #box p {
+        margin: 7px 0px;
+        font-size: 14px;
+    }
+    /* idhar box ki css khatm */
+    
+    #infoBox {
+        width: 52%;
+        /* margin-left: 17%; */
+        display: flex;
+        margin: auto;
+    }
+    
+    .othersBox {
+        width: 24%;
+        margin: 1%;
+        color: #757575;
+    }
+    
+    .othersBox table {
+        width: 100%;
+        margin: 5%;
+    }
+    
+    .heading {
+        color: #4d4949;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    #socialMedia {
+        display: flex;
+    }
+    
+    .medias {
+        width: 20%;
+        height: 24%;
+        border-radius: 50%;
+        margin: 3%;
+        ;
+    }
+    
+    .medias img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #paymentBox {
+        width: 51%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    
+    .boxes {
+        border: 1px solid #757575;
+        width: 6%;
+        height: 34px;
+        margin: 9px;
+        padding: 3px;
+    }
+    
+    .boxes img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    #aboutParagraph {
+        width: 51%;
+        margin: auto;
+        color: #757575;
+        text-align: justify;
+    }
+    
+    .head {
+        color: black;
+    }
+    
+    #footer {
+        margin: 5%;
+        width: 90%;
+        text-align: center;
+        font-size: 14px;
+        color: #757575;
+    }
