@@ -10,9 +10,10 @@ body {
 }
 
 nav {
-    height: 66px;
+    height: 75px;
     width: 100%;
     background-color: #16ac99;
+    position: fixed;
 }
 
 #logo img {
