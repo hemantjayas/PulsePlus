@@ -250,65 +250,43 @@ ul select {
     height: 250px;
 }
 
-#containerRow {
-    border-top: 1px solid #BDBDBD;
-    border-bottom: 1px solid #BDBDBD;
-    background-color: #FAFAFA;
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#box {
     width: 100%;
-    display: inline-flex;
-}
-
-.left {
-    border-right: 1px solid #BDBDBD;
-    width: 35%;
-    margin-left: 0.5%;
-}
-
-.center {
-    border-right: 1px solid #BDBDBD;
-    width: 17%;
-}
-
-.right {
-    width: 35%;
-    margin-right: 0.5%;
-}
-
-.left .center1 {
-    float: right;
-}
-
-.center1 {
-    width: 48%;
-    margin: 0.5%;
-}
-
-.img {
-    width: 50%;
-    margin-left: 33%;
-}
-
-#img1 {
-    margin-top: 3%;
-}
-
-.img img {
-    width: 70%;
-    height: 100%;
-}
-
-.imgTitle {
-    width: 95%;
+    height: 200px;
+    display: flex;
     margin: auto;
-    color: #757575;
-    text-align: center;
-    margin-bottom: 2%;
-    font-size: 15px;
+    justify-content: center;
+    border: 1px solid #e3e1e1;
+    ;
 }
 
-.imgTitle b {
-    color: #424242;
-    font-size: 18px;
+#box div {
+    border: 1px solid #dddddd;
+    width: 13%;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#box img {
+    width: 38%;
+    height: 75px;
+}
+
+#box h5 {
+    margin: 9px 0px;
+    font-size: 15px;
+    color: #595656;
+}
+
+#box p {
+    margin: 7px 0px;
+    font-size: 14px;
 }
 
 #infoBox {
