@@ -1,49 +1,53 @@
-*{
+* {
     padding: 0px;
     margin: 0%;
     text-decoration: none;
     list-style: none;
 }
-body{
-    font-family:  'Poppins', sans-serif;
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
-nav{
+
+nav {
     height: 67px;
     width: 100%;
     background: #00BFA5;
 }
 
-
-
-#logo img{
+#logo img {
     width: 7.8%;
     margin-left: 14%;
     margin-top: 0.5%;
+}
 
+.cart-logo {
+    width: 7%;
 }
-.cart-logo{
-   width: 7%;
-}
-nav ul{
+
+nav ul {
     float: right;
     margin-right: -70px;
     margin-top: 00.5%;
 }
-nav li{
+
+nav li {
     display: inline-block;
     margin: 2px;
     line-height: 50px;
 }
-nav a{
+
+nav a {
     color: white;
     font-size: 18px;
-
 }
-nav li{
+
+nav li {
     color: white;
     font-size: larger;
 }
-ul select{
+
+ul select {
     border: 1px solid white;
     padding: 4px;
     margin-right: 5px;
@@ -57,10 +61,12 @@ ul select{
     height: 60px;
     display: inline-flex;
 }
+
 .searchBar {
     width: 40%;
     margin-left: 25%;
 }
+
 .searchBar input {
     width: 99.5%;
     height: 96%;
@@ -68,6 +74,7 @@ ul select{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
 .searchIcon {
     border: 1px solid orangered;
     width: 4%;
@@ -76,11 +83,13 @@ ul select{
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 .searchIcon img {
     width: 50%;
     height: 50%;
     margin: 20%;
 }
+
 .title {
     width: 65%;
     margin: auto;
@@ -89,6 +98,7 @@ ul select{
     color: #424242;
     font-weight: 600;
 }
+
 #testTypes {
     width: 55%;
     margin: 2%;
@@ -96,6 +106,7 @@ ul select{
     display: inline-flex;
     padding: 1%;
 }
+
 .tests {
     border: 1px solid #BDBDBD;
     padding: 2%;
