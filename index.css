@@ -1,76 +1,83 @@
-*{
+* {
     padding: 0px;
     margin: 0%;
     text-decoration: none;
     list-style: none;
 }
-body{
-    font-family:  'Poppins', sans-serif;
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
-nav{
+
+nav {
     height: 67px;
     width: 100%;
-    background: #00BFA5;
+    background-color: #16ac99;
 }
 
-
-
-#logo img{
+#logo img {
     width: 7.8%;
     margin-left: 14%;
     margin-top: 0.5%;
+}
 
+.cart-logo {
+    width: 7%;
 }
-.cart-logo{
-   width: 7%;
-}
-nav ul{
+
+nav ul {
     float: right;
     margin-right: -70px;
     margin-top: 00.5%;
 }
-nav li{
+
+nav li {
     display: inline-block;
     margin: 2px;
     line-height: 50px;
 }
-nav a{
+
+nav a {
     color: white;
     font-size: 18px;
-
 }
-nav li{
+
+nav li {
     color: white;
     font-size: larger;
 }
-ul select{
+
+ul select {
     border: 1px solid white;
     padding: 4px;
     margin-right: 5px;
-    background-color: #00BFA5;
+    background-color: #16ac99;
     border-radius: 8px;
-    
 }
+
 #searchPanel {
-    border: 1px solid #00BFA5;
     width: 100%;
     height: 230px;
-    background-color: #00BFA5;
+    background-color: #16ac99;
 }
+
 #searchBox {
-    margin-top: 2%;
     border: 1px;
-    width: 100%;
+    width: 86%;
+    padding: 22px;
     height: 28%;
-    display: inline-flex;
+    margin: auto;
+    display: flex
 }
+
 #searchBar {
-    border: 1px ;
+    border: 1px;
     margin-left: 18%;
     width: 57.5%;
     height: 99%;
     display: inline-flex;
 }
+
 #searchBar input {
     width: 88%;
     height: 90%;
@@ -78,6 +85,7 @@ ul select{
     border-bottom-left-radius: 10px;
     font-size: 18px;
 }
+
 #searchBar img {
     border: 1px;
     width: 9%;
@@ -85,6 +93,7 @@ ul select{
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 #uploadBox {
     border: 1px;
     width: 6%;
@@ -92,34 +101,38 @@ ul select{
     background-color: whitesmoke;
     border-radius: 10px;
 }
+
 #uploadBox img {
     width: 28%;
     height: 28%;
     margin-left: 35%;
     margin-top: 10%;
 }
+
 .upload {
     font-size: 12px;
     text-align: center;
 }
+
 #inforMationBox {
     width: 40%;
-    height: 40%;
-    margin-left: 30%;
-    margin-top: 3%;
-    display: inline-flex;
+    margin: auto;
+    display: flex;
 }
+
 #products {
     border-right: 1px solid white;
     width: 49.5%;
     display: inline-flex;
 }
+
 #products img {
     width: 25%;
     padding: 2%;
 }
+
 .description {
-    border: 1px ;
+    border: 1px;
     width: 70%;
     color: whitesmoke;
     font-size: 30px;
@@ -127,16 +140,19 @@ ul select{
     margin-left: 2%;
     margin-top: 3%;
 }
+
 #customers {
     border-left: 1px solid white;
     width: 49.5%;
     display: inline-flex;
 }
+
 #customers img {
     width: 25%;
     padding: 5%;
     margin-left: 22%;
 }
+
 #offerSlideshow {
     border: 1px solid black;
     width: 65%;
@@ -144,30 +160,36 @@ ul select{
     height: 300px;
     margin-top: 1%;
 }
+
 #bookingBox {
     width: 65%;
     height: 150px;
     margin-left: 17.5%;
     display: inline-flex;
 }
+
 #doctorBox {
     width: 46%;
     margin: 2%;
     display: inline-flex;
 }
+
 #labBox {
     width: 46%;
     margin: 2%;
     display: inline-flex;
 }
+
 .picture {
     width: 20%;
     margin: 1%;
 }
+
 .picture img {
     width: 100%;
     height: 100%;
 }
+
 .cunsultBox {
     margin: 1%;
     width: 79%;
@@ -175,6 +197,7 @@ ul select{
     text-align: center;
     font-size: 28px;
 }
+
 .bookingButton {
     border: 2px solid #00BFA5;
     border-radius: 5px;
@@ -185,56 +208,67 @@ ul select{
     font-size: 18px;
     padding: 2%;
 }
+
 #try {
-    
     width: 65%;
     font-size: 18px;
     margin: auto;
 }
+
 #didYouTryBox {
     border: 1px solid black;
     width: 65%;
     margin: auto;
     height: 250px;
 }
-#containerRow{
+
+#containerRow {
     border-top: 1px solid #BDBDBD;
     border-bottom: 1px solid #BDBDBD;
     background-color: #FAFAFA;
     width: 100%;
     display: inline-flex;
 }
+
 .left {
     border-right: 1px solid #BDBDBD;
     width: 35%;
     margin-left: 0.5%;
 }
+
 .center {
     border-right: 1px solid #BDBDBD;
     width: 17%;
 }
+
 .right {
     width: 35%;
     margin-right: 0.5%;
 }
+
 .left .center1 {
     float: right;
 }
+
 .center1 {
     width: 48%;
     margin: 0.5%;
 }
+
 .img {
     width: 50%;
     margin-left: 33%;
 }
+
 #img1 {
     margin-top: 3%;
 }
+
 .img img {
     width: 70%;
     height: 100%;
 }
+
 .imgTitle {
     width: 95%;
     margin: auto;
@@ -243,69 +277,84 @@ ul select{
     margin-bottom: 2%;
     font-size: 15px;
 }
-.imgTitle b{
+
+.imgTitle b {
     color: #424242;
     font-size: 18px;
 }
+
 #infoBox {
     width: 66%;
     margin-left: 17%;
     display: inline-flex;
 }
+
 .othersBox {
     width: 24%;
     margin: 1%;
     color: #757575;
 }
-.othersBox table{
+
+.othersBox table {
     width: 100%;
     margin: 5%;
 }
+
 .heading {
     color: black;
     font-size: 20px;
     font-weight: 530;
 }
+
 #socialMedia {
     display: inline-flex;
 }
+
 .medias {
     width: 21%;
     height: 26%;
     border-radius: 50%;
     margin: 5%;
 }
+
 .medias img {
     width: 100%;
     height: 100%;
 }
+
 #paymentBox {
-    width: 60%;
-    margin-top: 1%;
-    margin-left: 20%;
-    display: inline-flex;
+    width: 51%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
     margin-bottom: 25px;
 }
+
 .boxes {
     border: 1px solid #757575;
-    width: 11%;
-    height: 40px;
-    margin:1%;
+    width: 6%;
+    height: 34px;
+    margin: 9px;
+    padding: 3px;
 }
+
 .boxes img {
-    width: 80%;
+    width: 100%;
     height: 100%;
-    margin-left: 5%;
+    object-fit: contain;
 }
+
 #aboutParagraph {
     width: 65%;
     margin: auto;
     color: #757575;
     text-align: justify;
 }
+
 .head {
     color: black;
 }
+
 #footer {
     margin: 5%;
     width: 90%;
