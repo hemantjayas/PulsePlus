@@ -56,18 +56,18 @@ ul select {
 }
 
 #searchPanel {
-    background-color: #16ac99;
     width: 100%;
     height: 230px;
     background-color: #16ac99;
 }
 
 #searchBox {
-    margin-top: 2%;
     border: 1px;
-    width: 100%;
+    width: 86%;
+    padding: 22px;
     height: 28%;
-    display: inline-flex;
+    margin: auto;
+    display: flex
 }
 
 #searchBar {
@@ -116,10 +116,8 @@ ul select {
 
 #inforMationBox {
     width: 40%;
-    height: 40%;
-    margin-left: 30%;
-    margin-top: 3%;
-    display: inline-flex;
+    margin: auto;
+    display: flex;
 }
 
 #products {
