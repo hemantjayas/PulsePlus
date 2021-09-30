@@ -10,24 +10,38 @@ body {
 }
 
 nav {
-    height: 67px;
+    height: 66px;
     width: 100%;
     background-color: #16ac99;
 }
 
 #logo img {
-    width: 7.8%;
-    margin-left: 14%;
+    width: 6%;
+    height: 48px;
+    margin-left: 24%;
     margin-top: 0.5%;
 }
 
+#cart {
+    width: 35px;
+    height: 35px;
+}
+
+#select-state {
+    height: 32px;
+    color: white;
+    font-size: 18px;
+}
+
 .cart-logo {
-    width: 7%;
+    width: 53%;
+    height: 20px;
+    object-fit: contain;
 }
 
 nav ul {
     float: right;
-    margin-right: -70px;
+    margin-right: 455px;
     margin-top: 00.5%;
 }
 
@@ -63,24 +77,39 @@ ul select {
 
 #searchBox {
     border: 1px;
-    width: 86%;
-    padding: 22px;
-    height: 28%;
+    width: 52%;
+    padding: 10px;
+    height: 68px;
     margin: auto;
-    display: flex
+    display: flex;
 }
 
 #searchBar {
     border: 1px;
-    margin-left: 18%;
-    width: 57.5%;
-    height: 99%;
-    display: inline-flex;
+    /* margin-left: 18%; */
+    width: 90%;
+    /* height: 99%; */
+    display: flex;
+}
+
+#searchBar div {
+    width: 7%;
+    /* height: 63px; */
+    background-color: #f9ae42;
+    border: 1px solid black;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#searchBar div img {
+    width: 100%;
+    height: 58%;
+    margin-top: 10px;
+    object-fit: contain;
+    filter: invert();
 }
 
 #searchBar input {
     width: 88%;
-    height: 90%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     font-size: 18px;
@@ -96,8 +125,8 @@ ul select {
 
 #uploadBox {
     border: 1px;
-    width: 6%;
-    height: 99%;
+    width: 9%;
+    /* height: 99%; */
     background-color: whitesmoke;
     border-radius: 10px;
 }
