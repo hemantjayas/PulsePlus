@@ -185,10 +185,8 @@ ul select {
 
 #offerSlideshow {
     border: 1px solid black;
-    width: 65%;
+    width: 51%;
     margin: auto;
-    height: 300px;
-    margin-top: 1%;
 }
 
 #bookingBox {
@@ -240,14 +238,14 @@ ul select {
 }
 
 #try {
-    width: 65%;
+    width: 51%;
     font-size: 18px;
     margin: auto;
 }
 
 #didYouTryBox {
     border: 1px solid black;
-    width: 65%;
+    width: 51%;
     margin: auto;
     height: 250px;
 }
