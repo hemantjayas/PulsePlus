@@ -186,6 +186,7 @@ ul select {
 #offerSlideshow {
     border: 1px solid black;
     width: 51%;
+    height: 250px;
     margin: auto;
 }
 
