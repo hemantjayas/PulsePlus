@@ -1,406 +1,460 @@
-    * {
-        padding: 0px;
-        margin: 0%;
-        text-decoration: none;
-        list-style: none;
-    }
-    
-    nav {
-        height: 75px;
-        width: 100%;
-        z-index: 4;
-        background-color: #16ac99;
-        position: fixed;
-    }
-    
-    #logo img {
-        width: 6%;
-        height: 48px;
-        margin-left: 24%;
-        margin-top: 0.5%;
-    }
-    
-    #cart {
-        width: 35px;
-        height: 35px;
-    }
-    
-    #select-state {
-        height: 32px;
-        color: white;
-        font-size: 18px;
-    }
-    
-    .cart-logo {
-        width: 53%;
-        height: 20px;
-        object-fit: contain;
-    }
-    
-    nav ul {
-        float: right;
-        margin-right: 455px;
-        margin-top: 00.5%;
-    }
-    
-    nav li {
-        display: inline-block;
-        margin: 2px;
-        line-height: 50px;
-    }
-    
-    nav a {
-        color: white;
-        font-size: 18px;
-    }
-    
-    nav li {
-        color: white;
-        font-size: larger;
-    }
-    
-    ul select {
-        border: 1px solid white;
-        padding: 4px;
-        margin-right: 5px;
-        background-color: #16ac99;
-        border-radius: 8px;
-    }
-    
-    #space {
-        width: 100%;
-        background-color: #16ac99;
-        height: 67px;
-    }
-    
-    #searchPanel {
-        width: 100%;
-        height: 190px;
-        background-color: #16ac99;
-        padding: 10px 0px;
-    }
-    
-    #searchBox {
-        width: 51%;
-        padding: 10px;
-        height: 70px;
-        margin: auto;
-        display: flex;
-    }
-    
-    #searchBar {
-        border: 1px;
-        /* margin-left: 18%; */
-        width: 90%;
-        /* height: 99%; */
-        display: flex;
-    }
-    
-    #searchBar input {
-        width: 88%;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        font-size: 18px;
-        border: none;
-    }
-    
-    #searchBar div {
-        width: 9%;
-        /* height: 63px; */
-        background-color: #f9ae42;
-        /* border: 1px solid black; */
-        border-radius: 0px 5px 5px 0px;
-    }
-    
-    #searchBar div img {
-        width: 32%;
-        height: 58%;
-        z-index: 2;
-        margin: 14px 26px;
-        object-fit: contain;
-        filter: invert();
-    }
-    
-    #searchBar img {
-        border: 1px;
-        width: 9%;
-        height: 97%;
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    #uploadBox {
-        border: 1px;
-        width: 9%;
-        /* height: 99%; */
-        background-color: whitesmoke;
-        border-radius: 10px;
-    }
-    
-    #uploadBox img {
-        width: 28%;
-        height: 28%;
-        margin-left: 35%;
-        margin-top: 10%;
-    }
-    
-    .upload {
-        font-size: 12px;
-        text-align: center;
-    }
-    
-    #inforMationBox {
-        width: 51%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-    }
-    
-    #line {
-        border-left: 0.01% solid white;
-    }
-    
-    .info {
-        width: 38%;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .capsuleImg {
-        width: 21%;
-    }
-    
-    .capsuleImg img {
-        padding-top: 19px;
-        height: 94%;
-        width: 79%;
-    }
-    
-    .description {
-        font-size: 21px;
-        width: 30%;
-        color: white;
-        padding: 43px 0px 10px;
-    }
-    
-    #cont2 {
-        background-color: #f5f8fa;
-    }
-    
-    #offerSlideshow {
-        border: 1px solid black;
-        width: 51%;
-        height: 250px;
-        margin: auto;
-    }
-    /* idhar se booking doctor ki css hai */
-    
-    #booking {
-        width: 51%;
-        height: 140px;
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-        background-color: #f5f8fa;
-        padding: 20px 0;
-    }
-    
-    .doctor {
-        width: 48%;
-        margin: 4px;
-        padding-left: 10px;
-        display: flex;
-    }
-    
-    .img {
-        width: 20%;
-    }
-    
-    .img img {
-        width: 100%;
-        height: 80%;
-    }
-    
-    .contenthai {
-        width: 58%;
-        text-align: center;
-    }
-    
-    .contenthai p {
-        font-size: 25px;
-        margin: 6px 0px 16px;
-        color: rgb(123 120 120)
-    }
-    
-    .contenthai button {
-        font-size: 16px;
-        padding: 10px;
-        color: #16ac99;
-        background-color: white;
-        border: 1px solid #16ac99;
-        box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
-    }
-    
-    .contenthai button:hover {
-        color: white;
-        background-color: #16ac99;
-        cursor: pointer;
-    }
-    
-    span {
-        font-weight: bold;
-    }
-    /* idhar booking ki css khatm */
-    
-    #try {
-        width: 51%;
-        font-size: 18px;
-        margin: auto;
-    }
-    
-    #didYouTryBox {
-        border: 1px solid black;
-        width: 51%;
-        margin: auto;
-        height: 250px;
-    }
-    
-    * {
-        font-family: 'Roboto', sans-serif;
-    }
-    /* idhar box ki css start */
-    
-    #box {
-        width: 100%;
-        height: 200px;
-        display: flex;
-        margin: auto;
-        justify-content: center;
-        border: 1px solid #e3e1e1;
-        ;
-    }
-    
-    #box div {
-        border: .5px solid #f3efef;
-        width: 12.78%;
-        height: 200px;
-        text-align: center;
-        padding: 20px;
-        box-sizing: border-box;
-    }
-    
-    #box img {
-        width: 38%;
-        height: 75px;
-    }
-    
-    #box h5 {
-        margin: 9px 0px;
-        font-size: 15px;
-        color: #595656;
-    }
-    
-    #box p {
-        margin: 7px 0px;
-        font-size: 14px;
-    }
-    
-    #box>div:nth-child(4) {
-        border-right: none;
-    }
-    
-    #box>div:nth-child(1) {
-        border-left: none;
-    }
-    /* idhar box ki css khatm */
-    
-    #infoBox {
-        width: 52%;
-        /* margin-left: 17%; */
-        display: flex;
-        margin: auto;
-    }
-    
-    .othersBox {
-        width: 24%;
-        margin: 2%;
-        color: #757575;
-    }
-    
-    .othersBox table {
-        width: 100%;
-        margin: 5%;
-    }
-    
-    .othersBox td {
-        padding-bottom: 10px;
-        font-size: 14px;
-    }
-    
-    #heading {
-        color: #4d4949;
-        font-size: 16px;
-        font-weight: bold;
-    }
-    
-    #socialMedia {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .medias {
-        width: 20%;
-        height: 24%;
-        border-radius: 50%;
-        margin: 2%;
-        ;
-    }
-    
-    .medias img {
-        width: 86%;
-        height: 81%;
-    }
-    
-    #paymentBox {
-        width: 51%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 25px;
-    }
-    
-    .boxes {
-        border: 1px solid #cdcbcb;
-        width: 6%;
-        height: 30px;
-        margin: 9px;
-        border-radius: 2px;
-        box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
-        padding: 7px;
-    }
-    
-    .boxes img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
-    
-    #aboutParagraph {
-        width: 51%;
-        margin: auto;
-        color: #757575;
-        text-align: justify;
-    }
-    
-    .head {
-        color: black;
-    }
-    
-    #footer {
-        margin: 5%;
-        width: 90%;
-        text-align: center;
-        font-size: 14px;
-        color: #757575;
-    }
+* {
+    padding: 0px;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    height: 47px;
+    width: 100%;
+    z-index: 4;
+    background-color: #16ac99;
+    position: fixed;
+    padding: 15px 0;
+    /* box-sizing: border-box; */
+}
+
+.navbar>ul {
+    display: flex;
+    column-gap: 30%;
+    justify-content: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    /* background-color: blueviolet; */
+    height: 45px
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.navbar ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar>ul li:nth-child(2) ul {
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+}
+
+.navbar>ul li:nth-child(2) li {
+    height: 30px;
+    /* background-color: violet; */
+    margin-top: 10px;
+}
+
+#cart img {
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+}
+
+#location {
+    background-color: white;
+    border: 6px solid #ff9308;
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-image: url('https://www.pulseplus.in/content/images/icons/select-city-header.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 20px 20px 40px 10px rgb(78 16 9 / 39%)
+}
+
+#location>div {
+    width: 100%;
+    height: 20px;
+    /* background-color: #16ac99; */
+    display: flex;
+    justify-content: right;
+}
+
+#loc {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+#location>input {
+    width: 80%;
+    margin: 50% auto 10%;
+    height: 25px;
+    border: 2px solid #ff9308;
+    border-radius: 4px;
+}
+
+#location>select {
+    width: 82%;
+    margin: 0 auto;
+    height: 25px;
+    border: 2px solid #ff9308;
+    border-radius: 4px;
+}
+
+#location button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: none;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+#space {
+    width: 100%;
+    background-color: #16ac99;
+    height: 67px;
+}
+
+#searchPanel {
+    width: 100%;
+    height: 190px;
+    background-color: #16ac99;
+    padding: 10px 0px;
+}
+
+#searchBox {
+    width: 51%;
+    padding: 10px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+}
+
+#searchBar {
+    border: 1px;
+    /* margin-left: 18%; */
+    width: 90%;
+    /* height: 99%; */
+    display: flex;
+}
+
+#searchBar input {
+    width: 88%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 18px;
+    border: none;
+}
+
+#searchBar div {
+    width: 9%;
+    /* height: 63px; */
+    background-color: #f9ae42;
+    /* border: 1px solid black; */
+    border-radius: 0px 5px 5px 0px;
+}
+
+#searchBar div img {
+    width: 32%;
+    height: 58%;
+    z-index: 2;
+    margin: 14px 26px;
+    object-fit: contain;
+    filter: invert();
+}
+
+#searchBar img {
+    border: 1px;
+    width: 9%;
+    height: 97%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#uploadBox {
+    border: 1px;
+    width: 9%;
+    /* height: 99%; */
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#uploadBox img {
+    width: 28%;
+    height: 28%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.upload {
+    font-size: 12px;
+    text-align: center;
+}
+
+#inforMationBox {
+    width: 51%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#line {
+    border-left: 0.01% solid white;
+}
+
+.info {
+    width: 38%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.capsuleImg {
+    width: 21%;
+}
+
+.capsuleImg img {
+    padding-top: 19px;
+    height: 94%;
+    width: 79%;
+}
+
+.description {
+    font-size: 21px;
+    width: 30%;
+    color: white;
+    padding: 43px 0px 10px;
+}
+
+#cont2 {
+    background-color: #f5f8fa;
+}
+
+#offerSlideshow {
+    border: 1px solid black;
+    width: 51%;
+    height: 250px;
+    margin: auto;
+}
+
+
+/* idhar se booking doctor ki css hai */
+
+#booking {
+    width: 51%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #f5f8fa;
+    padding: 20px 0;
+}
+
+.doctor {
+    width: 48%;
+    margin: 4px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.img {
+    width: 20%;
+}
+
+.img img {
+    width: 100%;
+    height: 80%;
+}
+
+.contenthai {
+    width: 58%;
+    text-align: center;
+}
+
+.contenthai p {
+    font-size: 25px;
+    margin: 6px 0px 16px;
+    color: rgb(123 120 120)
+}
+
+.contenthai button {
+    font-size: 16px;
+    padding: 10px;
+    color: #16ac99;
+    background-color: white;
+    border: 1px solid #16ac99;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+}
+
+.contenthai button:hover {
+    color: white;
+    background-color: #16ac99;
+    cursor: pointer;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+/* idhar booking ki css khatm */
+
+#try {
+    width: 51%;
+    font-size: 18px;
+    margin: auto;
+}
+
+#didYouTryBox {
+    border: 1px solid black;
+    width: 51%;
+    margin: auto;
+    height: 250px;
+}
+
+
+/* idhar box ki css start */
+
+#box {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid #e3e1e1;
+    ;
+}
+
+#box div {
+    border: .5px solid #f3efef;
+    width: 12.78%;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#box img {
+    width: 38%;
+    height: 75px;
+}
+
+#box h5 {
+    margin: 9px 0px;
+    font-size: 15px;
+    color: #595656;
+}
+
+#box p {
+    margin: 7px 0px;
+    font-size: 14px;
+}
+
+#box>div:nth-child(4) {
+    border-right: none;
+}
+
+#box>div:nth-child(1) {
+    border-left: none;
+}
+
+
+/* idhar box ki css khatm */
+
+#infoBox {
+    width: 52%;
+    /* margin-left: 17%; */
+    display: flex;
+    margin: auto;
+}
+
+.othersBox {
+    width: 24%;
+    margin: 2%;
+    color: #757575;
+}
+
+.othersBox table {
+    width: 100%;
+    margin: 5%;
+}
+
+.othersBox td {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+#heading {
+    color: #4d4949;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.medias {
+    width: 20%;
+    height: 24%;
+    border-radius: 50%;
+    margin: 2%;
+    ;
+}
+
+.medias img {
+    width: 86%;
+    height: 81%;
+}
+
+#paymentBox {
+    width: 51%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.boxes {
+    border: 1px solid #cdcbcb;
+    width: 6%;
+    height: 30px;
+    margin: 9px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 15%);
+    padding: 7px;
+}
+
+.boxes img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#aboutParagraph {
+    width: 51%;
+    margin: auto;
+    color: #757575;
+    text-align: justify;
+}
+
+.head {
+    color: black;
+}
+
+#footer {
+    margin: 5%;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    color: #757575;
+}
