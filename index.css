@@ -8,6 +8,7 @@
     nav {
         height: 75px;
         width: 100%;
+        z-index: 4;
         background-color: #16ac99;
         position: fixed;
     }
@@ -114,6 +115,7 @@
     #searchBar div img {
         width: 32%;
         height: 58%;
+        z-index: 2;
         margin: 14px 26px;
         object-fit: contain;
         filter: invert();
@@ -170,16 +172,16 @@
     }
     
     .capsuleImg img {
-        padding-top: 9px;
-        height: 98%;
-        width: 83%;
+        padding-top: 19px;
+        height: 94%;
+        width: 79%;
     }
     
     .description {
-        font-size: 23px;
+        font-size: 21px;
         width: 30%;
         color: white;
-        padding: 33px 0px 10px;
+        padding: 43px 0px 10px;
     }
     
     #cont2 {
@@ -296,6 +298,14 @@
         margin: 7px 0px;
         font-size: 14px;
     }
+    
+    #box>div:nth-child(4) {
+        border-right: none;
+    }
+    
+    #box>div:nth-child(1) {
+        border-left: none;
+    }
     /* idhar box ki css khatm */
     
     #infoBox {
@@ -307,7 +317,7 @@
     
     .othersBox {
         width: 24%;
-        margin: 1%;
+        margin: 2%;
         color: #757575;
     }
     
@@ -316,27 +326,33 @@
         margin: 5%;
     }
     
-    .heading {
+    .othersBox td {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    #heading {
         color: #4d4949;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: bold;
     }
     
     #socialMedia {
         display: flex;
+        justify-content: center;
     }
     
     .medias {
         width: 20%;
         height: 24%;
         border-radius: 50%;
-        margin: 3%;
+        margin: 2%;
         ;
     }
     
     .medias img {
-        width: 100%;
-        height: 100%;
+        width: 86%;
+        height: 81%;
     }
     
     #paymentBox {
