@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
     <title>Pulse Pharmacy</title>
 </head>
 
@@ -16,10 +15,36 @@
 
 <body>
 
-    <nav class="navbar">
-        <a href="index.html" id="logo"><img src="https://www.pulseplus.in/content/images/icons/logo-pulse-pharmacy-trans.png" /></a>
+    <div class="navbar">
+
         <ul>
-            <select id="select-state">
+
+
+
+            <li>
+                <a href="index.html" id="logo"><img src="https://www.pulseplus.in/content/images/icons/logo-pulse-pharmacy-trans.png" /></a>
+            </li>
+            <li>
+                <ul>
+                    <li><a id="loc" href="#">Location</a></li>
+                    <li><a href="Login.html">Login /</a></li>
+                    <li><a href="SignUp.html">Signup</a></li>
+                    <li id="cart">
+                        <a href="cart.html"> <img class="cart-logo" src="https://www.pulseplus.in/content/images/icons/cart.svg" /></a>
+                    </li>
+                </ul>
+            </li>
+
+
+
+        </ul>
+    </div>
+    <div id="location">
+        <div>
+            <button id="hide">x</button>
+        </div>
+        <input type="text" placeholder="Enter Your City Name">
+        <select id="select-state">
                 <option>Location</option>
                 <option>New Delhi</option>
                 <option>Mumbai</option>
@@ -30,15 +55,10 @@
                 <option>Pune</option>
                 <option>Hyderabad</option>
             </select>
-            <li><a href="Login.html">Login</a></li>
-            <li>/</li>
-            <li><a href="SignUp.html">Signup</a></li>
-            <li id="cart">
-                <a href="cart.html"> <img class="cart-logo" src="https://www.pulseplus.in/content/images/icons/cart.svg" /></a>
-            </li>
+    </div>
 
-        </ul>
-    </nav>
+
+
 
     <div id="space"></div>
     <div id="searchPanel">
@@ -273,6 +293,8 @@
     <div id="footer">
         © 2021 Pulse Pharmacy. All Rights Reserved
     </div>
+
+    <script src="index.js"></script>
 
 </body>
 
