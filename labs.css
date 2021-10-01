@@ -72,7 +72,7 @@ ul select {
 
 #mainBox {
     border: 1px solid black;
-    width: 55%;
+    width: 60%;
     margin: auto;
     background-color: whitesmoke;
 }
@@ -116,7 +116,7 @@ ul select {
 }
 
 #testBox {
-    margin: 2%;
+    margin: 5%;
     display: flex;
 }
 
@@ -196,9 +196,37 @@ ul select {
     display: flex;
 }
 .checkup {
-    border: 1px solid red;
     width: 33%;
+    margin-left: 0.2%;
+}
+.checkupTitle {
+    border: 1px solid #16ac99;
+    height: 55px;
+    background-image: url("https://c.neh.tw/thumb/f/720/2909bab85f4d4a91b029.jpg");
+    text-align: center;
+}
+.text {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 5%;
+    font-weight: 600;
+}
+.checkupDetail {
+    border: 1px solid #9E9E9E;
+    display: flex;
+}
+.testImg {
+    width: 20%;
     height: 60px;
-    margin-left: 0.5%;
-    background-color: #16ac99;
+    margin: 2%;
+    margin-top: 5%;
+}
+.testImg img {
+    width: 100%;
+    height: 100%;
+}
+.imgDetail {
+    width: 74%;
+    margin-left: 1%;
+    margin-top: 5%;
 }
