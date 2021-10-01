@@ -239,6 +239,13 @@
         color: #16ac99;
         background-color: white;
         border: 1px solid #16ac99;
+        box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+    }
+    
+    .contenthai button:hover {
+        color: white;
+        background-color: #16ac99;
+        cursor: pointer;
     }
     
     span {
@@ -364,11 +371,13 @@
     }
     
     .boxes {
-        border: 1px solid #757575;
+        border: 1px solid #cdcbcb;
         width: 6%;
-        height: 34px;
+        height: 30px;
         margin: 9px;
-        padding: 3px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+        padding: 7px;
     }
     
     .boxes img {
