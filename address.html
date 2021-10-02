@@ -34,28 +34,28 @@
   <div id="address">
      
       <div class="form">
-        <form id="addressForm" >
+        <form id="addressForm" onsubmit="addressStore(event)" >
             <h2 style="color:#16ac99; margin-bottom: 20px;">Delivery Adress</h2>
             <h4>Name</h4>
-            <input  type="text" class="name" style="width: 90%; height: 35px;" required>
+            <input  type="text" id="name" style="width: 90%; height: 35px;" required>
             <h4>flat Number,Building name, Street/Locality</h4>
-            <input type="text"  class="locality" style="width: 90%; height: 45px;" required>
+            <input type="text"  id="locality" style="width: 90%; height: 45px;" required>
            <div class="pincode" style="display: flex; width: 100%;">
                <div class="city" style="width: 35%;">
                     <h4>Pincode</h4>
-                    <input type="number" class="Pincode" style="width: 90%; height: 25px;" required>
+                    <input type="number" id="pincode" style="width: 90%; height: 25px;" required>
                </div>
                <div class="city" style="width: 33%;">
                    <h4>City</h4>
-                   <input type="text"  class="city" style="width: 90%; height: 25px;" required>
+                   <input type="text"  id="city" style="width: 90%; height: 25px;" required>
                </div>
                <div class="city" style="width: 30%;">
                    <h4>State</h4>
-                   <input type="text"  class="State" style="width: 72.5%; height: 25px;" required>
+                   <input type="text"  id="State" style="width: 72.5%; height: 25px;" required>
                </div>
            </div>
             <h4>Delivery Contact No.</h4>
-            <input type="number"  class="number" style="width: 40%; height: 30px;" required>
+            <input type="number"  id="number" style="width: 40%; height: 30px;" required>
             <div class="slect-type" style="display: flex; margin: 2%;">
                 <div class="select" style="margin-right: 5%;">
                     <input type="radio"  id="home" value="Home" style="cursor: pointer;">
@@ -70,6 +70,7 @@
                     <label>Other</label>
                 </div>
             </div>
+            <input type="submit" value="Submit" style="width: 200px; height: 30px; background: #fd7e14; cursor: pointer;">
         </form>
       </div>
       <div id="couponcode"></div>
