@@ -1,48 +1,391 @@
-*{
+* {
     padding: 0px;
     margin: 0%;
     text-decoration: none;
     list-style: none;
 }
-body{
-    font-family:  'Poppins', sans-serif;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f8fa;
 }
-nav{
-    height: 67px;
+
+nav {
+    height: 75px;
     width: 100%;
-    background: #16ac99;
+    background-color: #16ac99;
+    position: fixed;
 }
 
-#logo img{
-    width: 7.8%;
-    margin-left: 14%;
+#logo img {
+    width: 6%;
+    height: 48px;
+    margin-left: 24%;
     margin-top: 0.5%;
-
 }
-nav ul{
+
+#cart {
+    width: 35px;
+    height: 35px;
+}
+
+#select-state {
+    height: 32px;
+    color: white;
+    font-size: 18px;
+}
+
+.cart-logo {
+    width: 53%;
+    height: 20px;
+    object-fit: contain;
+}
+
+nav ul {
     float: right;
-    margin-right: 17%;
+    margin-right: 455px;
     margin-top: 00.5%;
 }
-nav li{
+
+nav li {
     display: inline-block;
     margin: 2px;
     line-height: 50px;
 }
-nav a{
+
+nav a {
     color: white;
     font-size: 18px;
-
 }
-nav li{
+
+nav li {
     color: white;
     font-size: larger;
 }
-ul select{
+
+ul select {
     border: 1px solid white;
     padding: 4px;
     margin-right: 5px;
     background-color: #16ac99;
     border-radius: 8px;
+}
+#cart_page{
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: auto;
+    width: 100%;
+}
+#cart_items{
+    display: grid;
+    gap: 1%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin-top: 1%;
+    margin-left: 1%;
+    background: #fff;
+    padding: 3px;
+
+}
+#cart_items img{
+    width: 60%;
+    height: 100px;
+}
+#cart_items > div{
+    background: #fff;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    padding: 30px;
+    width: 200px;
+    border-radius: 20px;
+}
+#couponcode{
+    margin-top: 4%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    height: 400px;
+}
+#couponcode input{
+    width: 50%;
+    height: 20px;
+    margin-left: 60px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border: 1px solid #16ac99;
+    width: 250px;
+
+}
+button{
+    display: grid;
+    margin: auto;
+    margin-top: 10%;
+    padding: 5px;
+    width: 200px;
+    background-color: #fd7e14;
+    border-radius: 5px;
+    height: 30px;
+    justify-content: center;
+}
+h1{
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+input{
+    margin: auto;
+    margin-top: 10%;
     
+}
+#inforMationBox {
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+
+#products {
+    border-right: 1px solid white;
+    width: 49.5%;
+    display: inline-flex;
+}
+
+#products img {
+    width: 25%;
+    padding: 2%;
+}
+
+.description {
+    border: 1px;
+    width: 70%;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+#mySlideshow{
+    width: 70%;
+    height: 300px;
+    border: 2px solid #00BFA5;
+    margin: auto;
+    position: relative;
+}
+.mySlides{
+ display: none;
+}
+
+
+#customers {
+    border-left: 1px solid white;
+    width: 49.5%;
+    display: inline-flex;
+}
+
+#customers img {
+    width: 25%;
+    padding: 5%;
+    margin-left: 22%;
+}
+
+#bookingBox {
+    width: 65%;
+    height: 150px;
+    margin-left: 17.5%;
+    display: inline-flex;
+}
+
+#doctorBox {
+    width: 46%;
+    margin: 2%;
+    display: inline-flex;
+}
+
+#labBox {
+    width: 46%;
+    margin: 2%;
+    display: inline-flex;
+}
+
+.picture {
+    width: 20%;
+    margin: 1%;
+}
+
+.picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.cunsultBox {
+    margin: 1%;
+    width: 79%;
+    color: #424242;
+    text-align: center;
+    font-size: 28px;
+}
+
+.bookingButton {
+    border: 2px solid #00BFA5;
+    border-radius: 5px;
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+    color: #00BFA5;
+    font-size: 18px;
+    padding: 2%;
+}
+
+#try {
+    width: 65%;
+    font-size: 18px;
+    margin: auto;
+}
+
+#didYouTryBox {
+    border: 1px solid black;
+    width: 65%;
+    margin: auto;
+    height: 250px;
+}
+
+#containerRow {
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    background-color: #FAFAFA;
+    width: 100%;
+    display: inline-flex;
+}
+
+.left {
+    border-right: 1px solid #BDBDBD;
+    width: 35%;
+    margin-left: 0.5%;
+}
+
+.center {
+    border-right: 1px solid #BDBDBD;
+    width: 17%;
+}
+
+.right {
+    width: 35%;
+    margin-right: 0.5%;
+}
+
+.left .center1 {
+    float: right;
+}
+
+.center1 {
+    width: 48%;
+    margin: 0.5%;
+}
+
+.img {
+    width: 50%;
+    margin-left: 33%;
+}
+
+#img1 {
+    margin-top: 3%;
+}
+
+.img img {
+    width: 70%;
+    height: 100%;
+}
+
+.imgTitle {
+    width: 95%;
+    margin: auto;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 15px;
+}
+
+.imgTitle b {
+    color: #424242;
+    font-size: 18px;
+}
+
+#infoBox {
+    width: 66%;
+    margin-left: 17%;
+    display: inline-flex;
+    margin-top: 2%;
+}
+
+.othersBox {
+    width: 24%;
+    margin: 1%;
+    color: #757575;
+}
+
+.othersBox table {
+    width: 100%;
+    margin: 5%;
+}
+
+.heading {
+    color: black;
+    font-size: 20px;
+    font-weight: 530;
+}
+
+#socialMedia {
+    display: inline-flex;
+}
+
+.medias {
+    width: 21%;
+    height: 26%;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+.medias img {
+    width: 100%;
+    height: 100%;
+}
+
+#paymentBox {
+    width: 51%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.boxes {
+    border: 1px solid #757575;
+    width: 6%;
+    height: 34px;
+    margin: 9px;
+    padding: 3px;
+}
+
+.boxes img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#aboutParagraph {
+    width: 65%;
+    margin: auto;
+    color: #757575;
+    text-align: justify;
+}
+
+.head {
+    color: black;
+}
+
+#footer {
+    margin: 5%;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    color: #757575;
 }
