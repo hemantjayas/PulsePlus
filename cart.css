@@ -126,6 +126,11 @@ button{
     height: 30px;
     justify-content: center;
 }
+button:hover{
+    background-color: #fd7e14;
+    width: 60%;
+    height: 35px;
+}
 h1{
     margin: auto;
     margin-top: 10%;
