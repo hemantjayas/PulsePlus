@@ -1,420 +1,113 @@
-* {
-    padding: 0px;
-    margin: 0%;
-    text-decoration: none;
-    list-style: none;
+body{
+    background:url("https://www.pulseplus.in/content/images/icons/bg.png");
 }
-
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-nav {
-    height: 75px;
-    width: 100%;
-    background-color: #16ac99;
-    position: fixed;
-}
-
-#logo img {
-    width: 6%;
-    height: 48px;
-    margin-left: 24%;
-    margin-top: 0.5%;
-}
-
-#cart {
-    width: 35px;
-    height: 35px;
-}
-
-#select-state {
-    height: 32px;
-    color: white;
-    font-size: 18px;
-}
-
-.cart-logo {
-    width: 53%;
-    height: 20px;
-    object-fit: contain;
-}
-
-nav ul {
-    float: right;
-    margin-right: 455px;
-    margin-top: 00.5%;
-}
-
-nav li {
-    display: inline-block;
-    margin: 2px;
-    line-height: 50px;
-}
-
-nav a {
-    color: white;
-    font-size: 18px;
-}
-
-nav li {
-    color: white;
-    font-size: larger;
-}
-
-ul select {
-    border: 1px solid white;
-    padding: 4px;
-    margin-right: 5px;
-    background-color: #16ac99;
-    border-radius: 8px;
-}
-#inforMationBox {
-    width: 40%;
-    margin: auto;
+#container{
     display: flex;
 }
-
-#products {
-    border-right: 1px solid white;
-    width: 49.5%;
-    display: inline-flex;
-}
-
-#products img {
-    width: 25%;
-    padding: 2%;
-}
-
-.description {
-    border: 1px;
-    width: 70%;
-    color: whitesmoke;
-    font-size: 30px;
-    font-weight: 100;
-    margin-left: 2%;
-    margin-top: 3%;
-}
-
-#mySlideshow{
-    width: 70%;
-    height: 300px;
-    border: 2px solid #00BFA5;
-    margin: auto;
-    position: relative;
-}
-.mySlides{
- display: none;
-}
-img {
-    width: 20%;
-    margin-left: 35%;
-}
-
-#cd {
-    margin-left: 5%;
-}
-
-#card {
-    font-size: 30px;
-}
-
-#css {
-    margin-left: 10%;
-}
-
-#cod {
-    font-size: 30px;
-}
-
-#co {
-    margin-top: 3%;
-}
-
-#co>#form>input {
-    width: 93%;
+  #PaymnetBox{
+      width: 30%;
+      margin: auto;
+      margin-top: 3%;
+      height: 500px;
+      box-shadow: 0px 10px 15px rgba(0,0,0, 0.5);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background: #fff;
+  }
+  .detail>input{
+    width: 160%;
+    margin-top: 10px;
+    margin-bottom: 30px;
     height: 20px;
 }
 
-#co>#form>label {
-    font-size: 20px;
-}
-#date{
-    margin-bottom: 10px;
-}
-#butt {
-    margin-top: 5%;
-    margin-left: 36%;
-    width: 20%;
-    height: 35px;
-    background-color: black;
-    color: white;
-    border-color: black;
-}
+ 
+  #PaymentBar{
+      width: 100%;
+      height: 50px;
+      margin: auto;
+      padding-top: 25px;
+      background-color: #16ac99;
+      font-size: 28px;
+      font-weight: 80;
+      color: darkslategray;
+      text-align: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  button{
+      display: flex;
+      margin: auto;
+      width: 50%;
+      border:1px solid #fff;
+      background-color: #fd7e14;
+      height: 30px;
+      padding-top: 8px;
+      justify-content: center;
+  }
 
-#butt:hover {
-    background-color: white;
-    color: black;
-}
-#box {
-    display: grid;
-    grid-template-columns: 30% 20%;
-    column-gap: 45%;
-}
-
-#form {
-    border: 1px solid;
-    background-color: rgb(245, 245, 245);
-    margin-left: 50px;
-    margin-top: 50px;
-    
-}
-#total{
-    border: solid 1px;
-    background-color: black;
-    color: white;
-    margin-top: 50px;
-    justify-content: center;
-}
-#total > h2 {
-    margin-left: 10%;
-}
-#promo {
-    border: solid 1px;
-    height: 75%;
-    background-color: chartreuse;
-    color: black;
-}
-#promo > h2 {
-    text-align: center;
-}
-#promo > input {
-    margin-left: 15%;
-    height: 20px;
-}
-#promo > button {
-    margin: 5% 0% 0% 34%;
-    width: 25%; height: 30px;
-    border-color: black;
-    background-color: black;
-    color: white;
-}
-#promo > button:hover {
-    background-color: white;
-    color: black;
-}
+  button:hover{
+      background-color: #fd7e14;
+      width: 60%;
+      height: 35px;
+  }
 
 
-#customers {
-    border-left: 1px solid white;
-    width: 49.5%;
-    display: inline-flex;
+#couponcode{
+    margin-top: 4%;
+    margin-right: 10%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    height: 400px;
+    background: #fff;
 }
-
-#customers img {
-    width: 25%;
-    padding: 5%;
-    margin-left: 22%;
-}
-
-#bookingBox {
-    width: 65%;
-    height: 150px;
-    margin-left: 17.5%;
-    display: inline-flex;
-}
-
-#doctorBox {
-    width: 46%;
-    margin: 2%;
-    display: inline-flex;
-}
-
-#labBox {
-    width: 46%;
-    margin: 2%;
-    display: inline-flex;
-}
-
-.picture {
-    width: 20%;
-    margin: 1%;
-}
-
-.picture img {
-    width: 100%;
-    height: 100%;
-}
-
-.cunsultBox {
-    margin: 1%;
-    width: 79%;
-    color: #424242;
-    text-align: center;
-    font-size: 28px;
-}
-
-.bookingButton {
-    border: 2px solid #00BFA5;
-    border-radius: 5px;
-    width: 75%;
-    margin: auto;
-    margin-top: 5%;
-    color: #00BFA5;
-    font-size: 18px;
-    padding: 2%;
-}
-
-#try {
-    width: 65%;
-    font-size: 18px;
-    margin: auto;
-}
-
-#didYouTryBox {
-    border: 1px solid black;
-    width: 65%;
-    margin: auto;
-    height: 250px;
-}
-
-#containerRow {
-    border-top: 1px solid #BDBDBD;
-    border-bottom: 1px solid #BDBDBD;
-    background-color: #FAFAFA;
-    width: 100%;
-    display: inline-flex;
-}
-
-.left {
-    border-right: 1px solid #BDBDBD;
-    width: 35%;
-    margin-left: 0.5%;
-}
-
-.center {
-    border-right: 1px solid #BDBDBD;
-    width: 17%;
-}
-
-.right {
-    width: 35%;
-    margin-right: 0.5%;
-}
-
-.left .center1 {
-    float: right;
-}
-
-.center1 {
-    width: 48%;
-    margin: 0.5%;
-}
-
-.img {
+#couponcode input{
     width: 50%;
-    margin-left: 33%;
-}
+    height: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border: 1px solid #16ac99;
+    width: 250px;
 
-#img1 {
-    margin-top: 3%;
 }
-
-.img img {
-    width: 70%;
-    height: 100%;
-}
-
-.imgTitle {
-    width: 95%;
+button{
+    display: grid;
     margin: auto;
-    color: #757575;
-    text-align: center;
-    margin-bottom: 2%;
-    font-size: 15px;
-}
-
-.imgTitle b {
-    color: #424242;
-    font-size: 18px;
-}
-
-#infoBox {
-    width: 66%;
-    margin-left: 17%;
-    display: inline-flex;
-}
-
-.othersBox {
-    width: 24%;
-    margin: 1%;
-    color: #757575;
-}
-
-.othersBox table {
-    width: 100%;
-    margin: 5%;
-}
-
-.heading {
-    color: black;
-    font-size: 20px;
-    font-weight: 530;
-}
-
-#socialMedia {
-    display: inline-flex;
-}
-
-.medias {
-    width: 21%;
-    height: 26%;
-    border-radius: 50%;
-    margin: 5%;
-}
-
-.medias img {
-    width: 100%;
-    height: 100%;
-}
-
-#paymentBox {
-    width: 51%;
-    margin: auto;
-    display: flex;
+    margin-top: 10%;
+    padding: 5px;
+    width: 200px;
+    background-color: #fd7e14;
+    border-radius: 5px;
+    height: 30px;
     justify-content: center;
-    margin-bottom: 25px;
 }
-
-.boxes {
-    border: 1px solid #757575;
-    width: 6%;
-    height: 34px;
-    margin: 9px;
-    padding: 3px;
+.detail{
+    width: 50%;
+    margin: 30px;
 }
-
-.boxes img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-#aboutParagraph {
-    width: 65%;
+h1{
     margin: auto;
-    color: #757575;
-    text-align: justify;
-}
-
-.head {
-    color: black;
-}
-
-#footer {
-    margin: 5%;
-    width: 90%;
+    margin-top: 10%;
     text-align: center;
-    font-size: 14px;
-    color: #757575;
+}
+input{
+    margin: auto;
+    margin-top: 10%;
+}
+.choose{
+    margin: 30px;
+    width: 100%;
+}
+.thank{
+    background: #16ac99;
+    margin: auto;
+    background-color: #16ac99;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgb(226, 223, 223);
+    width: 45%;
+    height: 200px;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 10%;
 }
