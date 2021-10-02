@@ -34,9 +34,6 @@ function show(){
     if(input.value==="masai30"){
         total_price = total_price*70/100;
         div.innerText = "Total Price = "+Math.floor(total_price);
-    }else if(input.value==="pummylove"){
-        total_price = 0;
-        div.innerText = "Total Price = "+Math.floor(total_price);
     }
 }
 
@@ -54,22 +51,29 @@ function addressStore(e){
     let home = userAddressForm.home.value;
     let work = userAddressForm.work.value;
     let other = userAddressForm.other.value;
+    console.log(number);
 
-    if(localStorage.getItem("myUsers")=== null){
-        localStorage.setItem("myUsers", JSON.stringify([]));
+    if(localStorage.getItem("Pulseusers")=== null){
+        localStorage.setItem("Pulseusers", JSON.stringify([]));
 
     }
 
     let data = {
         name,
-        price,
-        image,
+       address,
+       pin,
+       city,
+       state,
+       number,
+       home,
+       work,
+       other
     }
 
-    let arr = JSON.parse(localStorage.getItem("myUsers"));
+    let arr = JSON.parse(localStorage.getItem("Pulseusers"));
 
     arr.push(data);
 
-    localStorage.setItem("myUsers", JSON.stringify(arr));
+    localStorage.setItem("Pulseusers", JSON.stringify(arr));
     console.log(arr);
 }
