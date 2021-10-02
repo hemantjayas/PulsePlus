@@ -239,12 +239,15 @@
 }
 
 #offerSlideshow {
-    border: 1px solid black;
     width: 51%;
-    height: 250px;
     margin: auto;
+    margin-top: 2%;
 }
-
+#offerSlideshow img{
+    width: 70%;
+    height: 250px;
+    margin-left: 15%;
+}
 
 /* idhar se booking doctor ki css hai */
 
