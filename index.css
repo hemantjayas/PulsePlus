@@ -18,14 +18,14 @@
 
 .navbar>ul {
     display: flex;
-    column-gap: 30%;
+    column-gap: 26%;
     justify-content: center;
 }
 
 .navbar ul li {
     list-style: none;
     /* background-color: blueviolet; */
-    height: 45px
+    height: 50px
 }
 
 .navbar ul li a {
@@ -243,11 +243,13 @@
     margin: auto;
     margin-top: 2%;
 }
-#offerSlideshow img{
+
+#offerSlideshow img {
     width: 70%;
     height: 250px;
     margin-left: 15%;
 }
+
 
 /* idhar se booking doctor ki css hai */
 
@@ -416,7 +418,7 @@ span {
 
 .medias img {
     width: 86%;
-    height: 81%;
+    height: 70%;
 }
 
 #paymentBox {
