@@ -152,6 +152,7 @@
     border-bottom-left-radius: 5px;
     font-size: 18px;
     border: none;
+    outline: none;
 }
 
 #searchBar div {
@@ -462,16 +463,19 @@ span {
     font-size: 14px;
     color: #757575;
 }
+
 #didYouTryBox {
     width: 51%;
     margin: auto;
     margin-top: 2%;
 }
-#didYouTryBox img{
+
+#didYouTryBox img {
     width: 50%;
     height: 250px;
     margin-left: 15%;
 }
+
 #didYouTryBox {
     width: 51%;
     margin: auto;
