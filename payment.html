@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,40 @@
     <link rel="stylesheet" href="payment.css">
     <title>Document</title>
 </head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
 <body>
-    
-   <div id="container">
-    <div id="PaymnetBox">
-        <div id="PaymentBar">PAYMENT</div>
 
-        <form class="choose" action="">
+    <div id="container">
+        <div id="PaymnetBox">
+            <div id="PaymentBar">PAYMENT</div>
 
-            <input type="radio" onclick="cardpayment()">
-            <label for="" id="card">CARD PAYMENT</label>
-            <input type="radio"  onclick="cashondelivery()">
-            <label for="" id="cod" >CASH ON DELIVERY</label>
-        </form>
+            <form class="choose" action="">
 
-        <form class="detail" action="" id="form">
-            <label for="">CARD NUMBER</label>
-            <input id="cardnumber" type="text" placeholder="Enter Card Number">
-            <label for="">CVV</label>
-            <input id="cvv"  type="text" placeholder="Enter CVV">
-            <label for="">EXPIRE DATE</label>
-            <input id="expireDate" type="text" placeholder="mm/yy">
-        </form>
+                <input type="radio" onclick="cardpayment()">
+                <label for="" id="card">CARD PAYMENT</label>
+                <input type="radio" onclick="cashondelivery()">
+                <label for="" id="cod">CASH ON DELIVERY</label>
+            </form>
 
-        <button id="makePaymnet">MAKE PAYMENT</button>
+            <form class="detail" action="" id="form">
+                <label for="">CARD NUMBER</label>
+                <input id="cardnumber" type="text" placeholder="Enter Card Number">
+                <label for="">CVV</label>
+                <input id="cvv" type="text" placeholder="Enter CVV">
+                <label for="">EXPIRE DATE</label>
+                <input id="expireDate" type="text" placeholder="mm/yy">
+            </form>
 
+            <button id="makePaymnet">MAKE PAYMENT</button>
+
+        </div>
+        <div id="couponcode"></div>
     </div>
-    <div id="couponcode"></div>
-   </div>
     <script src="payment.js"></script>
 </body>
+
 </html>
