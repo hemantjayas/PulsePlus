@@ -124,7 +124,7 @@
 }
 
 #mainBox {
-    width: 60%;
+    width: 51%;
     margin: auto;
     background-color: whitesmoke;
 }
@@ -294,6 +294,7 @@
     color: orange;
     margin: 5%;
 }
+
 .offerBox {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -302,6 +303,7 @@
     height: 70px;
     display: flex;
 }
+
 .percentOff {
     border: 1px dashed white;
     border-radius: 10px;
@@ -310,10 +312,12 @@
     margin: 4%;
     text-align: center;
 }
+
 .percentOff div {
     color: white;
     padding: 8%;
 }
+
 .rates {
     width: 30%;
     margin: 4%;
@@ -322,6 +326,7 @@
     font-size: 16px;
     font-weight: 600;
 }
+
 .rates div {
     margin: 2%;
     font-weight: 500;
@@ -329,6 +334,7 @@
     margin-left: 10%;
     text-decoration: line-through;
 }
+
 .bookBox {
     border: 1px solid white;
     background-color: orange;
