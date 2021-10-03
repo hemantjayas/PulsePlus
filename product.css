@@ -124,16 +124,17 @@
 }
 
 #product-list {
-    margin: 5% 5% 5% 5%;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     gap: 3%;
+    width: 51%;
+    margin: 25px auto;
 }
 
 #product-list div {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
-    padding: 30px;
+    padding: 10px;
 }
 
 #product-list img {
@@ -142,5 +143,23 @@
 }
 
 p {
+    /* color: white; */
+    font-size: 20px;
+}
+
+#product-list button {
+    width: 284px;
+    height: 45px;
+    font-size: 20px;
+    background-color: #f9ae42;
     color: white;
+    /* padding: 7px; */
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+h5 {
+    font-size: 20px;
 }
