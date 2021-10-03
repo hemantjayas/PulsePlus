@@ -3,88 +3,144 @@
     margin: 0%;
     text-decoration: none;
     list-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-nav {
-    height: 75px;
+.navbar {
+    height: 47px;
     width: 100%;
+    z-index: 4;
     background-color: #16ac99;
     position: fixed;
+    padding: 15px 0;
+    /* box-sizing: border-box; */
 }
 
-#logo img {
-    width: 6%;
-    height: 48px;
-    margin-left: 24%;
-    margin-top: 0.5%;
+.navbar>ul {
+    display: flex;
+    column-gap: 26%;
+    justify-content: center;
 }
 
-#cart {
-    width: 35px;
-    height: 35px;
+.navbar ul li {
+    list-style: none;
+    /* background-color: blueviolet; */
+    height: 50px
 }
 
-#select-state {
-    height: 32px;
+.navbar ul li a {
+    text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
 }
 
-.cart-logo {
-    width: 53%;
-    height: 20px;
-    object-fit: contain;
+.navbar ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-nav ul {
-    float: right;
-    margin-right: 455px;
-    margin-top: 00.5%;
+.navbar>ul li:nth-child(2) ul {
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
 }
 
-nav li {
-    display: inline-block;
-    margin: 2px;
-    line-height: 50px;
+.navbar>ul li:nth-child(2) li {
+    height: 30px;
+    /* background-color: violet; */
+    margin-top: 10px;
 }
 
-nav a {
-    color: white;
-    font-size: 18px;
+#cart img {
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
 }
 
-nav li {
-    color: white;
-    font-size: larger;
-}
-
-ul select {
-    border: 1px solid white;
-    padding: 4px;
-    margin-right: 5px;
-    background-color: #16ac99;
+#location {
+    background-color: white;
+    border: 6px solid #ff9308;
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-image: url('https://www.pulseplus.in/content/images/icons/select-city-header.png');
+    background-repeat: no-repeat;
     border-radius: 8px;
+    box-shadow: 20px 20px 40px 10px rgb(78 16 9 / 39%)
+}
+
+#location>div {
+    width: 100%;
+    height: 20px;
+    /* background-color: #16ac99; */
+    display: flex;
+    justify-content: right;
+}
+
+#loc {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+#location>input {
+    width: 80%;
+    margin: 50% auto 10%;
+    height: 25px;
+    border: 2px solid #ff9308;
+    border-radius: 4px;
+}
+
+#location>select {
+    width: 82%;
+    margin: 0 auto;
+    height: 25px;
+    border: 2px solid #ff9308;
+    border-radius: 4px;
+}
+
+#location button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: none;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+#space {
+    width: 100%;
+    background-color: #16ac99;
+    height: 67px;
 }
 
 #product-list {
     margin: 5% 5% 5% 5%;
     display: grid;
-    grid-template-columns: auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     gap: 3%;
 }
-#product-list div{
-    box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+
+#product-list div {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
     padding: 30px;
 }
-#product-list img{
+
+#product-list img {
     width: 150px;
     height: 150px;
 }
-p{
+
+p {
     color: white;
 }
