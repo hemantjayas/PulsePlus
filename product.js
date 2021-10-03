@@ -112,8 +112,8 @@ function show_product(data) {
         let br1 = document.createElement('br')
 
         img.src = product.img;
-        name = product.name;
-        price = "₹" + product.price;
+        name.textContent = product.name;
+        price.textContent = 'Price   ' + "₹ " + product.price;
 
         let btn = document.createElement('button');
         btn.innerHTML = "Add to Cart";
