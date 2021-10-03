@@ -229,4 +229,10 @@ ul select {
     width: 74%;
     margin-left: 1%;
     margin-top: 5%;
+    color: #424242;
+}
+
+.imgDetail span {
+    color: orange;
+    margin: 5%;
 }
