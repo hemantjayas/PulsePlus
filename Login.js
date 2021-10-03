@@ -20,3 +20,7 @@ function login(e){
         alert("Invalid usename or password!");
     }
 }
+
+function page_Redirect(){
+    window.location.href = "index.html";
+}
