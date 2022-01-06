@@ -129,7 +129,7 @@
     gap: 1%;
     grid-template-columns: 60% 30%;
     grid-template-rows: auto;
-    width: 60%;
+    /* width: 60%; */
     justify-content: center;
     margin: 20px auto;
 }
@@ -164,11 +164,12 @@
     box-shadow: 0px 10px 15px rgb(0 0 0 / 50%);
     padding: 10px;
     height: 450px;
+    /* width:130%; */
 }
 
 #couponcode input {
     height: 30px;
-    margin-left: 25px;
+    margin-left: 76px;
     box-shadow: 0px 10px 15px rgb(0 0 0 / 20%);
     padding: 5px;
     border: 1px solid #16ac99;
