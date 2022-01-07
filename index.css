@@ -161,6 +161,14 @@
     background-color: #f9ae42;
     /* border: 1px solid black; */
     border-radius: 0px 5px 5px 0px;
+    position: relative;
+}
+.fas{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    filter: invert();
 }
 
 #searchBar div img {
@@ -169,7 +177,6 @@
     z-index: 2;
     margin: 14px 26px;
     object-fit: contain;
-    filter: invert();
 }
 
 #searchBar img {
